@@ -1,4 +1,4 @@
-import expres, {Request, Response} from "express"
+import express, {Request, Response} from "express"
 import  Task from "../model/task.model"
 //[GET] api/v1/tasks
 export const tasks = async(req: Request, res: Response): Promise<void> => {
